@@ -24,17 +24,18 @@
 ### Dataset creation:
              For data collection I used yahoo finance. Yahoo Finance is a database with stock prices for various companies.
 The stock data obtained from yahoo contains the following parameters:
-      *	Date
-      *	Open
-      *	High
-      *	Low
-      *	Close
-      *	Adj Close
-      *	Volume
+      
+      *  •	Date
+      *  •	Open
+      *  •	High
+      *  •	Low
+      *  •	Close
+      *  •	Adj Close
+      *  •	Volume
 I took the daily closing values of each of the stock as the stock value for a day.
 
 
-###Algorithm:
+### Algorithm:
                LSTM stands for Long Short Term memory. It is building block of a neural network (like perceptron). 
                LSTM blocks are used to build a recurrent neural network. An RNN is a type of neural network where 
                the output of a block is fed as input to the next iteration. An LSTM block is composed of four main 
