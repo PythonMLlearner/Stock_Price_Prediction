@@ -9,19 +9,19 @@
                   inherently unpredictable. 
                   
                   
-Description:
+### Description:
                 Problem statement was to predict increase or decrease in stock price for next day.
                 I addressed this as classification problem. There are many classification algorithms in neural
                 network such as SVM, LSTM and Backpropagation algorithm . Here I have used Long Short Term Memory (LSTM).
 
 
-Approach:
+### Approach:
              Our approach to for this project consist of major steps:
 1.	Dataset creation
 2.	Implementation of algorithm
 
 
-Dataset creation:
+### Dataset creation:
              For data collection I used yahoo finance. Yahoo Finance is a database with stock prices for various companies.
 The stock data obtained from yahoo contains the following parameters:
       •	Date
@@ -34,7 +34,7 @@ The stock data obtained from yahoo contains the following parameters:
 I took the daily closing values of each of the stock as the stock value for a day.
 
 
-Algorithm:
+###Algorithm:
                LSTM stands for Long Short Term memory. It is building block of a neural network (like perceptron). 
                LSTM blocks are used to build a recurrent neural network. An RNN is a type of neural network where 
                the output of a block is fed as input to the next iteration. An LSTM block is composed of four main 
@@ -49,16 +49,16 @@ Algorithm:
                LSTM don’t have the vanishing gradient problem which a traditional RNN has.
 
 
-Software and Python libraries:
-        •	Python 2.7
-        •	NumPy
-        •	Pandas
-        •	scikit-learn
-        •	matplotlib
-        •	math
-        •	keras
+### Software and Python libraries:
+      *  •	Python 2.7
+      *  •	NumPy
+      *  •	Pandas
+      *  •	scikit-learn
+      *  •	matplotlib
+      *  •	math
+      *  •	keras
 
-Conclusion:
+### Conclusion:
                  In this project, I have demonstrated a machine learning approach to predict stock market trend using neural
                  network called Long Short Term Memory(LSTM). Result shows how I can use history data to predict stock movement
                  with reasonable accuracy.
