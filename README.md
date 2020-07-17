@@ -1,6 +1,6 @@
 # Stock_Price_Prediction
 
-Stock prediction:
+##Stock prediction:
                   Stock market prediction is the act of trying to determine the future 
                   value of a company stock or other financial instrument traded on an exchange. 
                   The successful prediction of a stock's future price could yield significant profit. 
@@ -24,13 +24,13 @@ Approach:
 Dataset creation:
              For data collection I used yahoo finance. Yahoo Finance is a database with stock prices for various companies.
 The stock data obtained from yahoo contains the following parameters:
-•	Date
-•	Open
-•	High
-•	Low
-•	Close
-•	Adj Close
-•	Volume
+      •	Date
+      •	Open
+      •	High
+      •	Low
+      •	Close
+      •	Adj Close
+      •	Volume
 I took the daily closing values of each of the stock as the stock value for a day.
 
 
@@ -50,13 +50,13 @@ Algorithm:
 
 
 Software and Python libraries:
-•	Python 2.7
-•	NumPy
-•	Pandas
-•	scikit-learn
-•	matplotlib
-•	math
-•	keras
+        •	Python 2.7
+        •	NumPy
+        •	Pandas
+        •	scikit-learn
+        •	matplotlib
+        •	math
+        •	keras
 
 Conclusion:
                  In this project, I have demonstrated a machine learning approach to predict stock market trend using neural
