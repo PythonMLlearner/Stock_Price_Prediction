@@ -23,7 +23,8 @@
 
 ### Dataset creation:
              For data collection I used yahoo finance. Yahoo Finance is a database with stock prices for various 
-             companies.The stock data obtained from yahoo contains the following parameters:
+             companies.The Pandas datareader is a sub package that allows one to create a dataframe from various 
+             internet datasources, currently including: Yahoo!.The stock data obtained from yahoo contains the following parameters:
       
                    *  •	Date
                    *  •	Open
