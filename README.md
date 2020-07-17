@@ -17,22 +17,22 @@
 
 ### Approach:
              Our approach to for this project consist of major steps:
-1.	Dataset creation
-2.	Implementation of algorithm
+                 1.	Dataset creation
+                 2.	Implementation of algorithm
 
 
 ### Dataset creation:
-             For data collection I used yahoo finance. Yahoo Finance is a database with stock prices for various companies.
-The stock data obtained from yahoo contains the following parameters:
+             For data collection I used yahoo finance. Yahoo Finance is a database with stock prices for various 
+             companies.The stock data obtained from yahoo contains the following parameters:
       
-      *  •	Date
-      *  •	Open
-      *  •	High
-      *  •	Low
-      *  •	Close
-      *  •	Adj Close
-      *  •	Volume
-I took the daily closing values of each of the stock as the stock value for a day.
+                   *  •	Date
+                   *  •	Open
+                   *  •	High
+                   *  •	Low
+                   *  •	Close
+                   *  •	Adj Close
+                   *  •	Volume
+           I took the daily closing values of each of the stock as the stock value for a day.
 
 
 ### Algorithm:
@@ -45,9 +45,10 @@ I took the daily closing values of each of the stock as the stock value for a da
                (or feedforward) neural network: that is, they compute an activation (using an activation function) 
                of a weighted sum. Intuitively, they can be thought as regulators of the flow of values 
                that goes through the connections of the LSTM; hence the denotation "gate". 
-               There are connections between these gates and the cell. Some of the connections are recurrent, some of them are not.
-                   As mentioned earlier stock prediction is a time series problem. LSTM can be used for time series predictions. 
-               LSTM don’t have the vanishing gradient problem which a traditional RNN has.
+               There are connections between these gates and the cell. Some of the connections are recurrent, 
+               some of them are not.
+                   As mentioned earlier stock prediction is a time series problem. LSTM can be used for time series
+                predictions. LSTM don’t have the vanishing gradient problem which a traditional RNN has.
 
 
 ### Software and Python libraries:
