@@ -48,7 +48,7 @@
                There are connections between these gates and the cell. Some of the connections are recurrent, 
                some of them are not.
                    As mentioned earlier stock prediction is a time series problem. LSTM can be used for time series
-                predictions. LSTM don’t have the vanishing gradient problem which a traditional RNN has.
+               predictions. LSTM don’t have the vanishing gradient problem which a traditional RNN has.
 
 
 ### Software and Python libraries:
